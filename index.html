@@ -7,48 +7,242 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="https://kit.fontawesome.com/ca1c59ae28.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link href="https://fonts.cdnfonts.com/css/md-grotesk" rel="stylesheet">
   <title>XABRIELGONZALEZ</title>
 </head>
 
 <body>
-  <div class="home">
+  <div class="home" id="home">
     <nav>
-      <h2 class="logo"><a id="logo" href="#container">Xabriel <span class="job"> Gonzalez</span></a></h2>
+      <h2 class="logo"><a id="logo" class="logo" href="#container">Xabriel <span class="job"> Gonzalez</span></a></h2>
       <ul>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Experience and qualifications</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-
+        <li><a class="abme" href="#container2">About me</a></li>
+        <li><a class="eaq" href="#container3">Experience and Qualifications</a></li>
+        <li><a class="slls" href="#container4">Skills</a></li>
+        <li><a class="pjs" href="#container5">Projects</a></li>
       </ul>
-      <a href="https://www.linkedin.com/in/xabrielgonzalez/" target="_blank">
-        <button class="fa-brands fa-linkedin"></button>
-      </a>
-      <a href="https://github.com/xabrielgonzalez?tab=repositories" target="_blank">
-        <button class="fa-brands fa-github giti"></button>
-      </a>
+      <a target="_blank" onclick="window.location.href = 'xabriel241195@gmail.com'">
+        <button class="fa-regular fa-envelope envelope"></button>
+
+        <a href="https://www.linkedin.com/in/xabrielgonzalez/" target="_blank">
+          <button class="fa-brands fa-linkedin"></button>
+        </a>
+        <a href="https://github.com/xabrielgonzalez?tab=repositories" target="_blank">
+          <button class="fa-brands fa-github giti"></button>
+        </a>
     </nav>
 
-    <div class="container" id="container">
+    <div class="container " id="container">
       <img src="img/profile.png" alt="">
       <div class="info">
-        <h1>Hi,my name is <span> Xabriel</span></h1>
+        <h1>Hi, my name is <span>Xabriel</span></h1>
         <h3 class="machine">I'm a <span>Web Developer.</span></h3>
         <div class="description">
-          <p>With experience in <span class="html5">HTML5</span>, <span class="css3">CSS3</span>, <span class="js">JavaScript</span>,
-          <span class="react">React</span>, and <span class="node">Node.js</span>. I am currently expanding my knowledge in
-          other technologies to continue growing in my career. <br>
-          I am passionate about solving technical problems and working on
-          projects that allow me to apply my programming skills. I strive to
-          stay up to date with the latest trends and tools in the field of web
-          development to provide effective and efficient solutions.</p>
+          <p>With experience in <span class="html5">HTML5</span>, <span class="css3">CSS3</span>, <span
+              class="js">JavaScript</span>,
+            <span class="react">React</span>, and <span class="node">Node.js</span>. I am currently expanding my
+            knowledge in
+            other technologies to continue growing in my career. <br>
+            I am passionate about solving technical problems and working on
+            projects that allow me to apply my programming skills. I strive to
+            stay up to date with the latest trends and tools in the field of web
+            development to provide effective and efficient solutions.
+          </p>
         </div>
       </div>
-    </div>     
-    
+    </div>
 
+    <div class="container2" id="container2">
+      <h1 class="about">About <span>me</span></h1>
+
+      <p class="aboutdes">My name is Xabriel, and I have been interested in programming since my adolescence.
+        I began my journey with my first language, which was <span class="job">C++</span>. <br>
+        Over time, I have acquired knowledge in<span class="job">.Net</span> and have had theopportunity to
+        participate in various projects,
+        such as the creation of ticket sales for shows and sporting
+        events, which I have found immensely satisfying.
+
+        Currently, I am deeply passionate about web development and the extensive possibilities it offers through the
+        use of the latest technologies. <br> I consider myself a self-taught individual, constantly exploring new
+        technologies available in the market and integrating them into my projects to further enhance my skills and
+        expertise.</p>
+    </div>
+
+    <div class="container3" id="container3">
+      <h1 class="experience"> <span>Experience</span> and <span>Qualifications</span></h1>
+      <br>
+      <div id="experience">
+
+        <section class="projects" id="projects">
+          <h2 class="qae">
+            Qualifications
+          </h2>
+          <div id="projects-container" class="projects-container">
+            <div class="project-card">
+              <h3>Jovenes a Programar(Plan Ceibal)</h3>
+              <span class="job">Web Developer| 2022-Actually</span>
+              <ul>
+                <li>Computational thinking.</li>
+                <li>Algorithm management.</li>
+                <li>Skills development.</li>
+                <li>Soft skills development.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Computer Science Bachelor's Degree</h3>
+              <span class="job">PC maintenance and repair | Currently enrolled.</span>
+              <ul>
+                <li>Computational thinking.</li>
+                <li>Knowledge of PC components.</li>
+                <li>Programming and creation of projects in .NET.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects" id="projects">
+          <h2 class="qae">
+            Experience
+          </h2>
+
+          <div id="projects-container" class="projects-container">
+            <div class="project-card">
+              <h3>Cashier</h3>
+              <span class="job">Ta-Ta S.A | 2021-Actually.</span>
+              <ul>
+                <li>Customer service.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Assistant supervisor</h3>
+              <span class="job">Bowerey S.A(Almacenes Kinko)| 2016-2020.</span>
+              <ul>
+                <li>Customer service.</li>
+                <li>Stock control.</li>
+                <li>Vendor management.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Cashier</h3>
+              <span class="job">Disco S.A| 2014-2016.</span>
+              <ul>
+                <li>Customer service.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="container4" id="container4">
+      <h2 id="skill"> <span>Skills</span></h2>
+      <br>
+      <br>
+      <div class="containerskill">
+        <ul>
+          <li class="html5"><a href="#" class="html5"><i class="fa-brands fa-html5"></i></a>HTML5</li>
+          <li class="js"><a href="#" class="js"><i class="fa-brands fa-js"></i></a>JavaScript</li>
+          <li class="css3"><a href="#" class="css3"><i class="fa-brands fa-css3-alt"></i></a>CSS3</li>
+          <li class="github"><a href="#" class="github"><i class="fa-brands fa-github"></i></a>GitHub</li>
+          <li class="git"><a href="#" class="git"><i class="fa-brands fa-git-alt"></i></a>Git</li>
+          <li class="boostrap"><a href="#" class="boostrap"><i class="fa-brands fa-bootstrap"></i></a>Boostrap</li>
+          <li class="react"><a href="#" class="react"><i class="fa-brands fa-react"></i></a>React</li>
+          <li class="node"><a href="#" class="node"><i class="fa-brands fa-node"></i></a>Node</li>
+          <li class="java"><a href="#" class="java"><i class="fa-brands fa-java"></i></a>Java</li>
+          <li class="python"><a href="#" class="python"><i class="fa-brands fa-python"></i></a>Python</li>
+          <li class="raspberry"><a href="#" class="raspberry"><i class="fa-brands fa-raspberry-pi"></i></a>Raspberry
+          </li>
+        </ul>
+      
+        <p class="techinalskiil">Throughout my career as a software developer, I have acquired expertise in various
+          programming languages and
+          tools, including <span class="html5">HTML5</span>, <span class="css3">CSS3</span>, <span class="js">
+            JavaScript</span>, <span class="boostrap">Bootstrap</span>, <span class="node">Node.js</span>, <span
+            class="react">React</span>, and <span class="python">Python</span>, all of which have been
+          instrumental in creating numerous websites.
+
+          My proficiency in <span class="git">Git</span> has enabled me to effectively manage version control for
+          projects, utilizing branching
+          techniques to navigate and organize code changes. Additionally, my familiarity with <span
+            class="github">Github</span> has facilitated
+          efficient repository management, providing an effective means of backing up project code.
+
+          One noteworthy application of my skills involved leveraging <span class="raspberry">Raspberry Pi </span>
+          technology with .Net programming to
+          develop a ticketing system for various events. The system provided ticket purchasers with unique QR codes via
+          email, which were then verified through <span class="raspberry">Raspberry Pi </span> technology for validation
+          and entry.
+
+          As a dedicated learner, I am currently exploring <span class="java">Java</span> to augment my knowledge and
+          skillset, driven by a passion
+          for continuous learning and professional development.</p>
+      </div>
+    </div>
+
+
+    <div class="container5" id="container5">
+
+      <h2><span>Projects</span></h2>
+
+      <div class="container-card">
+
+        <div class="card">
+          <figure>
+            <img class="imgproje" src="img/ecomerce.png">
+          </figure>
+          <div class="contenido-card">
+            <h3>E-Comerce</h3>
+            <p>This E-Comm project involves a shopping site. <span class="boostrap">Bootstrap</span> and APIs used. I'll
+              upgrade it for a modern,
+              attractive look.</p>
+            <a href="https://xabrielgonzalez.github.io/E-Comerce/" target="_blank">Visit Page</a>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img class="imgproje" src="img/EnglishtoFrench.png">
+          </figure>
+          <div class="contenido-card">
+            <h3>English to French translator.</h3>
+            <p><span class="python">Python</span> was used for the creation of this project and corresponding testing
+              was
+              performed.</p>
+            <a href="https://github.com/xabrielgonzalez/EnglishToFrenchTranslator" target="_blank">Go to repositorie</a>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img class="imgproje" src="img/mtg.png">
+          </figure>
+          <div class="contenido-card">
+            <h3>Planeschange</h3>
+            <p> It is an expansion to a strategy card game that involves defeating opponents. This add-on adds more
+              dynamism and fun to the gameplay.<span class="html5">HTML5</span> and <span class="css3">CSS3 </span> were
+              used.
+            </p>
+            <a href="https://xabrielgonzalez.github.io/Planechase-MTG-beta/" target="_blank">Visit Page</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+  <div class="iconbutton">
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    </a>
+  </div>
   </div>
 
   <script src="https://kit.fontawesome.com/ca1c59ae28.js" crossorigin="anonymous"></script>

@@ -3,25 +3,31 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'MD Grotesk', sans-serif;
-
+  
 }
 
 /* home styles */
 .home {
   padding-top: 10px;
-  height: 100vh;
-  width: 100%;
+  padding-left: 20px;
   background-color:#F8EAD8;
 }
+
 
 #logo {
   text-decoration: none;
   color: black;
 }
 
+.aboutdes{
+  padding-top: 10px;
+  font-size: 20px;
+}
 
 nav {
+  padding-top: 0;
   display: flex;
+  
   align-items: center;
   justify-content: space-between;
   padding-left: 5%;
@@ -32,10 +38,6 @@ span {
   color: #FF4A4A;
 }
 
-
-.react{
-  color: var(--react);
-}
 
 nav ul li {
   list-style-type: none;
@@ -58,7 +60,7 @@ button {
   border: none;
   background: #0A66C2;
   padding: 12px 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -74,7 +76,7 @@ button:hover {
   border: none;
   background: #24292F;
   padding: 12px 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -86,9 +88,25 @@ button:hover {
   cursor: pointer;
 }
 
+.envelope{
+  border: none;
+  background:red;
+  padding: 12px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .3s;
+}
+
+.envelope:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
 img {
   padding-top: 50px;
-  padding-left: 90px;
+ 
   width: 600px;
 }
 
@@ -141,21 +159,21 @@ p {
 
 .about {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
+  font-size: 30px;
 }
 
 
 
 p.about {
-  margin-left: 10px;
-  text-align: center;
-
-  font-size: 30px;
+  margin-left: 5px;
+  text-align:justify;
+  font-size: 20px;
 }
 
 .experience {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 70px;
 }
 
 h4 {
@@ -177,6 +195,10 @@ h4 {
   margin-top: 15px;
   margin-left: 60px;
   padding-left: 100px;
+}
+
+.projects-container li,span{
+  font-weight: bold;
 }
 
 .projects-container hr {
@@ -207,12 +229,12 @@ h4 {
 
 :root {
   --html5: #F64A1D;
-  --js: #EFD81D;
+  --js: #a39200;
   --css3: #3595CF;
   --github: #CC4E66;
   --git: #E94E31;
   --boostrap: #7511F1;
-  --react: #5ED3F3;
+  --react: #22b0a8;
   --node: #6FA560;
   --java: #D30C12;
   --python: #274E70;
@@ -225,11 +247,12 @@ h4 {
   height: 50vh;
   align-items: center;
   justify-content: center;
+  
 }
 
 .containerskill ul li{
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 20px;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -245,6 +268,7 @@ h4 {
   box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
   transition: .2s;
 }
+
 
 .containerskill ul:hover a{
   filter: blur(2px);
@@ -330,7 +354,7 @@ h4 {
   font-weight: bold;
 }
 
-.r{
+.react{
   color: var(--react);
   font-weight: bold;
 }
@@ -357,12 +381,12 @@ h4 {
 
 .techinalskiil{
   margin: 100px;
-
+  font-size: 20px;
 }
 
 #skill{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .container-card {
@@ -520,8 +544,32 @@ h4 {
   filter: grayscale(0%);
 }
 
+.container5{
+  padding-top: 100px;
+}
 
 .container5 h2{
   text-align: center;
   padding: 40px;
 }
+
+.iconbutton{
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #FF4A4A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
