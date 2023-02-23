@@ -3,7 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Josefin Sans';
-  
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+  background-color:#F8EAD8;
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(255, 248, 185);
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: rgb(255, 245, 157);
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 /* home styles */
@@ -13,6 +29,9 @@
   background-color:#F8EAD8;
 }
 
+.homeindex{
+  font-size: 20px;
+}
 
 #logo {
   text-decoration: none;
@@ -567,7 +586,9 @@ h4 {
   cursor: pointer;
 }
 
-
+.visitp{
+  font-weight: bold;
+}
 
 
 
