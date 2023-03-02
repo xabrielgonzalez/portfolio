@@ -10,12 +10,12 @@ body::-webkit-scrollbar{
   background-color:#F8EAD8;
 }
 body::-webkit-scrollbar-thumb{
-  background: rgb(255, 248, 185);
+  background: rgb(255, 247, 176);
   border-radius: 50px;
 }
 
 body::-webkit-scrollbar-thumb:hover{
-  background: rgb(255, 245, 157);
+  background: rgb(255, 242, 129);
 }
 
 html{
@@ -278,7 +278,7 @@ h4 {
 }
 
 .containerskill ul li a{
-  display: block;
+  display: inline-block;
   padding:  0 10px;
   background: #333;
   color: #fff;
@@ -589,8 +589,4 @@ h4 {
 .visitp{
   font-weight: bold;
 }
-
-
-
-
 
