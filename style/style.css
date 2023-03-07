@@ -590,3 +590,56 @@ h4 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    padding: 10px 0;
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+
+  .projects-container {
+    margin: 15px;
+    padding: 0;
+  }
+
+  .project-card h3 {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  .project-card li {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .job {
+    padding-left: 0;
+  }
+}
